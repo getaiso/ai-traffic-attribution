@@ -1,0 +1,21 @@
+# Wrangler configuration for AI Bot Detection Worker
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "ai-bot-tracker"
+main = "bot-logger.js"
+compatibility_date = "2024-01-01"
+
+# Uncomment and configure for Analytics Engine:
+# [[analytics_engine_datasets]]
+# binding = "BOT_ANALYTICS"
+# dataset = "ai_bot_visits"
+
+# Environment variables (set via wrangler secret or dashboard):
+# CLIENT_API_KEY - Your identifier
+# API_ENDPOINT - Webhook URL for centralized logging
+# WEBHOOK_SECRET - Auth token for webhook
+
+# Route configuration (uncomment and edit):
+# routes = [
+#   { pattern = "yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
