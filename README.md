@@ -205,6 +205,7 @@ Sanity check: Adjusted clicks ≤ Total branded search traffic in GA
 
 | Variable | Required | Description |
 |----------|----------|-------------|
+| `CLOUDFLARE_ACCOUNT_ID` | Yes | Your Cloudflare account ID (Dashboard > right sidebar) |
 | `CLOUDFLARE_ZONE_ID` | Yes | Your Cloudflare zone ID (Dashboard > Overview) |
 | `CLOUDFLARE_API_TOKEN` | Yes | API token with Zone:Analytics:Read permission |
 | `GA4_PROPERTY_ID` | Yes | Your GA4 property ID |
